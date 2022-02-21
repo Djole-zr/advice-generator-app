@@ -5,9 +5,9 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Live Site URL:https://djole-zr.github.io/advice-generator-app/
+- Live Site URL: https://djole-zr.github.io/advice-generator-app/
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/advice-generator-with-axios-8IPJh1b41
 
 
 
