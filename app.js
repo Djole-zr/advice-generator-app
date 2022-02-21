@@ -6,7 +6,7 @@ const naslov = document.querySelector('h1');
 
 const dodavanje = async () => {
     const res = await axios.get('https://api.adviceslip.com/advice');
-    savet.textContent = `${res.data.slip.advice}`;
+    savet.textContent = `"${res.data.slip.advice}"`;
     naslov.textContent = `ADVICE #${res.data.slip.id}`;
 }
 
@@ -14,3 +14,6 @@ const dodavanje = async () => {
 
 dugme.addEventListener('click', dodavanje)
 
+window.onload = function() {
+    dodavanje();
+  };

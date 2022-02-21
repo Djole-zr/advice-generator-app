@@ -14,14 +14,86 @@
 */
 
 
-body {
-    
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    height: 100vh;
+    background-color: rgb(30, 36, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card {
+    width: 53.6rem;
+    background-color: #323a49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding: 4.6rem;
+    box-shadow: 0 3rem 10rem rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+}
+
+h1 {
+    color: #52ffa8;
+    margin-bottom: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+}
+
+p {
+    color: #cee3e9;
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-weight: 800;
+}
+
+.linija {
+    margin-bottom: 2.5rem;
+}
+
+button {
+    background-color: #52ffa8;
+    border: none;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1000px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 3rem #52ffa8;
+}
+
 
 .attribution {
     font-size: 11px; text-align: center;
+    position: absolute;
+    top: 95%;
+    color: #cee3e9;
 }
     
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: #52ffa8; 
 }
