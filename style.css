@@ -67,6 +67,10 @@ p {
     margin-bottom: 2.5rem;
 }
 
+.mobilni {
+    display: none;
+}
+
 button {
     background-color: #52ffa8;
     border: none;
@@ -96,4 +100,22 @@ button:hover {
     
 .attribution a { 
     color: #52ffa8; 
+}
+
+
+@media (max-width: 37em) {
+
+    .card {
+        width: 33.9rem;
+        padding-right: 2.2rem;
+        padding-left: 2.2rem;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobilni {
+        display: initial;
+    }
 }
