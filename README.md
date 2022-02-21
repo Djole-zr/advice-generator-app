@@ -1,10 +1,11 @@
-# Frontend Mentor - NFT preview card component solution
+# Frontend Mentor - Advice generator app solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
 
 ### Links
 
-- Live Site URL:
+- Live Site URL:https://djole-zr.github.io/advice-generator-app/
 
 - Solution URL: 
 
@@ -12,5 +13,5 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![preview-solution](images/screenshot.png)
+![preview-solution](screenshot.png)
 
